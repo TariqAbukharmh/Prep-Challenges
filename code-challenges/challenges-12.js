@@ -70,7 +70,7 @@ const oddFiltration = (arr) => {
 //  2- If one of the names is null dont add it to the full name
 
 const cvsFiltration = (arr) => {
-    // write your code here
+    return arr.filter();
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -85,7 +85,7 @@ const cvsFiltration = (arr) => {
 // 
 
 const vowelsFiltration = (arr) => {
-    // write your code here
+    return arr.filter(e => !e.includes('a') && !e.includes('e') && !e.includes('i') && !e.includes('o') && !e.includes('u'));
 } 
 // -------------------------------------------------------------------------------------------------------
 
