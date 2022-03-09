@@ -19,11 +19,12 @@
 //  
 
 const arrInc = (arr) => {
-    let result = [];
-    arr.forEach(item => {
-        result.push(item + 10);
-    });
-    return result;
+  let result = [];
+  
+  
+  arr.forEach(element => {result.push(element+10)});
+  return result;
+  
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -40,10 +41,11 @@ const arrInc = (arr) => {
 //  [5, 6, 7, 7]
 // 
 const roundDecimals = (arr) => {
-    arr.forEach(item => {
-        result.push(Math.round(item));
-    })
-    return result;
+  
+
+  let result=[];
+  arr.forEach(element => {result.push(Math.round(element))});
+  return result;
 
 }
 // -------------------------------------------------------------------------------------------------------
